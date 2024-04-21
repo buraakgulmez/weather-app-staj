@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply h-full bg-gray-700 text-white antialiased;
+  }
+  #root {
+    @apply bg-primary bg-center bg-cover bg-no-repeat flex items-center justify-center;
+  }
+  .wrapper {
+    @apply h-[812px] w-[375px] flex flex-col justify-center items-center;
+  }
+}
