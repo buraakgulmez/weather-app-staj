@@ -1,4 +1,4 @@
-# React ve OpenWeatherAPI kullanılarak yapılan Hava Durumu Uygulaması.
+# React ve OpenWeatherAPI kullanılarak yapılan Hava Durumu Uygulaması
 
 ## Kullanılan Teknolojiler;
 - React
