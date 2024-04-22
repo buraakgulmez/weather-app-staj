@@ -78,7 +78,7 @@ export default function Detail({ data }) {
   };
   return (
     <div className="w-full h-full flex flex-col justify-center items-center gap-5">
-      <div className="w-[335px] h-[304px] bg-detail bg-center bg-cover bg-no-repeat rounded-lg relative">
+      <div className="w-[355px] h-[324px] bg-detail bg-center bg-cover bg-no-repeat rounded-lg relative">
         <div className="px-5 py-5">
           <p className="text-gray-100 font-bold">
             {data.name}, {data.sys.country}

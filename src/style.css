@@ -632,6 +632,14 @@ html,
   height: 100%;
 }
 
+.h-\[404px\] {
+  height: 404px;
+}
+
+.h-\[324px\] {
+  height: 324px;
+}
+
 .w-\[160px\] {
   width: 160px;
 }
@@ -650,6 +658,14 @@ html,
 
 .w-full {
   width: 100%;
+}
+
+.w-\[435px\] {
+  width: 435px;
+}
+
+.w-\[355px\] {
+  width: 355px;
 }
 
 .cursor-pointer {
@@ -848,4 +864,52 @@ html,
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+@media not all and (min-width: 640px) {
+  .max-sm\:w-\[120px\] {
+    width: 120px;
+  }
+
+  .max-sm\:w-full {
+    width: 100%;
+  }
+
+  .max-sm\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .max-sm\:w-\[230px\] {
+    width: 230px;
+  }
+
+  .max-sm\:w-\[340px\] {
+    width: 340px;
+  }
+
+  .max-sm\:w-\[360px\] {
+    width: 360px;
+  }
+
+  .max-sm\:w-\[380px\] {
+    width: 380px;
+  }
+
+  .max-sm\:w-\[390px\] {
+    width: 390px;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:h-full {
+    height: 100%;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:w-\[320px\] {
+    width: 320px;
+  }
 }

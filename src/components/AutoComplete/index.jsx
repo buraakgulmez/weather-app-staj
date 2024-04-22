@@ -43,7 +43,7 @@ export default function AutoComplete({ onChange, loading }) {
       </div>
       <div className="mb-2">
         <input
-          className="px-[20px] rounded-[8px] bg-[#1E1E29] placeholder-gray-400 w-[452px] h-[56px] focus:outline-none"
+          className="px-[20px] rounded-[8px] bg-[#1E1E29] placeholder-gray-400 w-[452px] h-[56px] focus:outline-none max-sm:w-[380px]"
           type="text"
           placeholder="Search location"
           onChange={handleChange}
@@ -51,7 +51,7 @@ export default function AutoComplete({ onChange, loading }) {
         />
         {loading && <span>Loading</span>}
       </div>
-      <div className="flex flex-col gap-[1px] w-[452px]">
+      <div className="flex flex-col gap-[1px] w-[452px] max-sm:w-[390px]">
         {data.map((city, index) => (
           <div
             key={index}
